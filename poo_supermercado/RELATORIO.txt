@@ -1,0 +1,44 @@
+RELATÓRIO — E1 POO (PUCRS)
+
+1) Tabela de dados escolhida
+   - Produtos de supermercado (nome, categoria, preço, quantidade, validade).
+   - Tipos de dados: String, double, int, LocalDate (data).
+
+2) Implementação da classe
+   - Classe Produto representa uma linha da tabela.
+   - Inclui getters, alguns setters e método de utilidade valorTotalEstoque().
+   - Implementa Comparable por preço (desempate por nome).
+
+3) Arquivos de dados
+   - dados/produtos1.txt (mínimo de 10 registros).
+   - dados/produtos2.txt (mesma estrutura, conteúdo diferente).
+
+4) Aplicação em Java
+   - Classe App lê o arquivo passado como argumento (ou usa dados/produtos1.txt por padrão).
+   - Carrega em ArrayList<Produto> e processa:
+     • Estatísticas (média, min, máx) com streams.
+     • Produto mais caro e mais barato.
+     • Ordenações por preço e por validade.
+     • Agrupamento por categoria.
+     • Valor total em estoque.
+   - Saída impressa no terminal com explicação das métricas.
+
+5) Documentação com JavaDoc
+   - Comentários JavaDoc em Produto e App (classes e métodos).
+   - Instruções no README para gerar HTML do JavaDoc.
+
+6) Diagrama de Classe UML
+   - Arquivo uml/produto_uml.png ilustrando atributos e métodos principais.
+
+7) Fontes consultadas / ferramentas
+   - Livro: Cay S. Horstmann — *Core Java* (seções sobre classes, construtores, coleções e streams).
+   - Documentação oficial Java (java.util, java.time, streams).
+   - Git/GitHub para versionamento.
+   - Editor/IDE (VS Code/IntelliJ).
+   - ChatGPT para apoio na redação e organização.
+
+8) O que foi aprendido / dificuldades
+   - Manipulação de arquivos texto, parsing e validação de linhas.
+   - Uso de ArrayList, Collections e Comparator.
+   - Operações com streams (média, min/max, agrupamento).
+   - Boas práticas de JavaDoc e organização do projeto.

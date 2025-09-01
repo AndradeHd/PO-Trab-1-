@@ -1,0 +1,10 @@
+Arroz Integral;Alimento;25.50;12;2025-11-30
+Lentilha;Alimento;11.00;18;2025-12-10
+Creme Dental;Higiene;5.80;40;2026-05-01
+Sabao em Po;Limpeza;21.90;10;2026-06-15
+Suco;Bebida;8.50;22;2025-09-20
+Vodka;Bebida;32.00;8;2026-01-25
+Iogurte;Alimento;3.90;28;2025-09-12
+Desodorante;Higiene;14.90;20;2026-03-18
+Queijo;Alimento;19.50;6;2025-10-05
+Condicionador;Higiene;22.00;14;2026-04-22
